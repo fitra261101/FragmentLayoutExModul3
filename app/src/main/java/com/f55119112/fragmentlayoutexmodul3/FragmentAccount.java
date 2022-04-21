@@ -1,4 +1,4 @@
-package com.f55119002.fragmentlayoutexmodul3;
+package com.f55119112.fragmentlayoutexmodul3;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;
@@ -7,15 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class FragmentHome extends Fragment {
+public class FragmentAccount extends Fragment {
     View view;
-    public FragmentHome() {
+    public FragmentAccount() {
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.home_fragment, container,false);
+        view = inflater.inflate(R.layout.account_fragment, container,false);
         return view;
     }
 }
