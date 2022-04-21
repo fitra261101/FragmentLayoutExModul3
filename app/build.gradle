@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId 'com.f55119112.fragmentlayoutexmodul3'
+        applicationId 'com.f55119013.fragmentlayoutexmodul3'
         minSdk 21
         targetSdk 32
         versionCode 1
